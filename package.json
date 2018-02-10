@@ -1,0 +1,20 @@
+{
+  "name": "callbag-worker",
+  "version": "1.0.0",
+  "description": "Callbag utilities for communicating with a Web Worker",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/staltz/callbag-worker.git"
+  },
+  "main": "index.js",
+  "scripts": {
+    "test": "tape test.js"
+  },
+  "author": "staltz.com",
+  "license": "MIT",
+  "devDependencies": {
+    "tape": "^4.8.0",
+    "callbag-basics": "2.0.1",
+    "tiny-worker": "2.1.1"
+  }
+}
